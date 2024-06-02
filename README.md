@@ -1,61 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE readme SYSTEM "readme.dtd">
-<readme>
-  <title>Java WebSocket Chat Client</title>
-  
-  <description>
-    <paragraph>
-      Dieses Projekt ist ein einfacher Java-WebSocket-Chat-Client. Der Client verbindet sich mit einem WebSocket-Server und ermöglicht es Benutzern, Nachrichten in Echtzeit zu senden und zu empfangen. Die empfangenen Nachrichten werden in einer grafischen Benutzeroberfläche (GUI) angezeigt.
-    </paragraph>
-  </description>
-  
-  <features>
-    <list>
-      <item>Verbindung zu einem WebSocket-Server herstellen</item>
-      <item>Nachrichten in Echtzeit senden und empfangen</item>
-      <item>GUI zur Anzeige der Nachrichten</item>
-      <item>Unterstützung für mehrere Benutzer</item>
-    </list>
-  </features>
-  
-  <requirements>
-    <list>
-      <item>Java Development Kit (JDK) 8 oder höher</item>
-      <item>IntelliJ IDEA oder eine andere Java-Entwicklungsumgebung</item>
-      <item><code>java-websocket</code>-Bibliothek</item>
-      <item><code>org.json</code>-Bibliothek</item>
-    </list>
-  </requirements>
-  
-  <installation>
-    <steps>
-      <step>Klone das Repository:</step>
-      <step>Öffne das Projekt in deiner Entwicklungsumgebung.</step>
-      <step>Füge die <code>java-websocket</code>- und <code>org.json</code>-Bibliothek zu deinem Projekt hinzu.</step>
-    </steps>
-  </installation>
-  
-  <usage>
-    <steps>
-      <step>Passe die <code>ServerConnection</code>-Klasse an, um die richtige WebSocket-Server-URL einzufügen.</step>
-      <step>Führe die <code>JavaClientGUI</code>-Klasse aus, um die Anwendung zu starten.</step>
-    </steps>
-  </usage>
-  
-  <projectStructure>
-    <list>
-      <item><code>JavaClientGUI.java</code>: Erstellt die GUI und verwaltet Benutzerinteraktionen.</item>
-      <item><code>ServerConnection.java</code>: Handhabt die WebSocket-Verbindung und das Senden von Nachrichten.</item>
-      <item><code>MessageReceivedListener.java</code>: Interface für den Empfang von Nachrichten.</item>
-      <item><code>MessageProcessor.java</code>: Verarbeitet empfangene Nachrichten und formatiert sie für die Anzeige in der GUI.</item>
-    </list>
-  </projectStructure>
-  
-  <contribution>
-    <paragraph>Beiträge sind willkommen! Bitte erstelle einen Fork des Projekts und öffne eine Pull-Request mit deinen Änderungen.</paragraph>
-  </contribution>
-  
-  <license>
-    <paragraph>Dieses Projekt ist privat.</paragraph>
-  </license>
-</readme>
+# Java WebSocket Chat Client
+
+## Beschreibung
+Dieses Projekt ist ein einfacher Java-WebSocket-Chat-Client. Der Client verbindet sich mit einem WebSocket-Server und ermöglicht es Benutzern, Nachrichten in Echtzeit zu senden und zu empfangen. Die empfangenen Nachrichten werden in einer grafischen Benutzeroberfläche (GUI) angezeigt.
+
+## Funktionen
+- Verbindung zu einem WebSocket-Server herstellen
+- Nachrichten in Echtzeit senden und empfangen
+- GUI zur Anzeige der Nachrichten
+- Unterstützung für mehrere Benutzer
+
+## Anforderungen
+- Java Development Kit (JDK) 8 oder höher
+- IntelliJ IDEA oder eine andere Java-Entwicklungsumgebung
+- `java-websocket`-Bibliothek
+- `org.json`-Bibliothek
+
+## Installation
+1. Klone das Repository.
+2. Öffne das Projekt in deiner Entwicklungsumgebung.
+3. Füge die `java-websocket`- und `org.json`-Bibliothek zu deinem Projekt hinzu.
+
+## Verwendung
+1. Passe die `ServerConnection`-Klasse an, um die richtige WebSocket-Server-URL einzufügen.
+2. Führe die `JavaClientGUI`-Klasse aus, um die Anwendung zu starten.
+
+## Projektstruktur
+- `JavaClientGUI.java`: Erstellt die GUI und verwaltet Benutzerinteraktionen.
+- `ServerConnection.java`: Handhabt die WebSocket-Verbindung und das Senden von Nachrichten.
+- `MessageReceivedListener.java`: Interface für den Empfang von Nachrichten.
+- `MessageProcessor.java`: Verarbeitet empfangene Nachrichten und formatiert sie für die Anzeige in der GUI.
+
+## Beitrag
+Beiträge sind willkommen! Bitte erstelle einen Fork des Projekts und öffne eine Pull-Request mit deinen Änderungen.
+
+## Lizenz
+Dieses Projekt ist privat.
